@@ -7,7 +7,7 @@ module.exports = {
     client: 'pg',
     connection: {
       database: 'postgres://localhost:5432/movie_api',
-      username: 'ec2-user',
+      user: 'ec2-user',
     }
   }
 };
