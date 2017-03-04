@@ -6,7 +6,7 @@ module.exports = {
   production: {
     client: 'pg',
     connection: {
-      database: 'postgres://localhost:5432/movie_api',
+      database: 'postgres://localhost:5432/movie-api',
       user: 'ec2-user',
     }
   }

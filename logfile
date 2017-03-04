@@ -1,0 +1,20 @@
+LOG:  database system was shut down at 2017-03-03 19:56:09 MST
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  relation "movies" already exists
+STATEMENT:  create table "movies" ("id" serial primary key, "DVD_Title" varchar(255), "UPC" varchar(255))
+ERROR:  relation "movies" already exists
+STATEMENT:  create table "movies" ("id" serial primary key, "DVD_Title" varchar(255), "UPC" varchar(255))
+ERROR:  table "movies_id_seq" does not exist
+STATEMENT:  drop table movies_id_seq;
+ERROR:  syntax error at or near "/" at character 1
+STATEMENT:  /d
+	;
+ERROR:  relation "movies" already exists
+STATEMENT:  create table "movies" ("id" serial primary key, "DVD_Title" varchar(255), "UPC" varchar(255))
+ERROR:  relation "movies" already exists
+STATEMENT:  create table "movies" ("id" serial primary key, "DVD_Title" varchar(255), "UPC" varchar(255))
+FATAL:  role "movie_api" does not exist
+ERROR:  column "dvd_title" does not exist at character 28
+STATEMENT:  select * from movies where DVD_Title like '%Moana%';
